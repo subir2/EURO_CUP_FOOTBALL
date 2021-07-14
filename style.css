@@ -27,6 +27,14 @@ main{
    
 }
 
+.anchor-button{
+  text-decoration: none;
+  background: linear-gradient(45deg, yellow, aqua);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
 /*--------------------------------------common section end -------------------------------------------------------*/
 
 
@@ -45,7 +53,9 @@ main{
  padding: 56px;
   
 }
-
+.cover:hover{
+  background-color:cornflowerblue;
+}
 
 
 .anmi{
@@ -62,6 +72,7 @@ main{
   /* transform: rotate(80deg); */
   transform: translate(520px);
   transition: transform 5s;
+ 
 }
 
 
@@ -164,6 +175,10 @@ background-color: #E02C6D;
     color: #562EFF;
 }
 
+.thumbnail :hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  border-radius:20px;
+}
 
 
 
@@ -360,6 +375,7 @@ footer{
   @media (max-width:688px){
     footer{
       position: relative;
+      overflow: hidden;
     }
     footer .content .box{
       width: 100%;
@@ -442,6 +458,7 @@ footer{
   main{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
   
     align-items: flex-start
    
