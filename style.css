@@ -66,14 +66,14 @@ main{
   width: 10px;
   /* background-color: #E02C6D; */
 }
-
+/*
 .first-section:hover .cover .cover-taitle .anmi{
   background-color: #E02C6D;
-  /* transform: rotate(80deg); */
+  /* transform: rotate(80deg); 
   transform: translate(520px);
   transition: transform 5s;
  
-}
+}*/
 
 
 
@@ -464,3 +464,27 @@ footer{
    
 }
 }
+@media only screen and (max-width:688px) {
+  .anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, yellow, aqua);
+   width: 20%;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+  }
+}
+
+@media only screen and (max-width:688px) {
+  .anmi{
+    position: absolute;
+    left: 120px;
+    top: 155px;
+    height: 250px;
+    width: 10px;
+    overflow: hidden;
+    /* background-color: #E02C6D; */
+  }
+}
+
+
