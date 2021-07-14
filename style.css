@@ -98,9 +98,20 @@ main{
     box-shadow:0px 5.34229px 13.3557px lightgreen;
     border-radius: 15px;
 }
+.player :hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  border-radius:20px;
+}
 .player .player-banner img{
     width: 100%;
     height: 100%;
+}
+.player-detail h3{
+  text-align: center;
+}
+
+.player-detail p{
+  text-align: justify;
 }
 
 /*blog*/
@@ -199,7 +210,7 @@ input[type=text], select, textarea {
 .second-section{
   
     height: 500px;
-    padding-bottom: 150px;
+    padding-bottom: 75px;
 
     
 
