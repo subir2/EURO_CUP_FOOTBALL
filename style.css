@@ -354,11 +354,11 @@ footer{
 
   .player-detail .blog h3
   { 
-     width: 100%;
+     width: 50%;
    }
 
    .player-detail .blog p{
-    width: 100%;
+    width: 50%;
    }
   .player, .blog{
       flex-direction: column;
